@@ -7,7 +7,7 @@ import "vue3-carousel/dist/carousel.css";
 <template>
   <Carousel :autoplay="4000" :itemsToShow="1" :wrapAround="true" :transition="0">
     <Slide v-for="slide in allSliders" :key="slide.id">
-      <img :src="slide.src" alt="" />
+      <img :src="slide.src" :alt='`${slide.id}枚目の写真`' />
     </Slide>
   </Carousel>
 </template>
