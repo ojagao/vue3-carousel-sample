@@ -10,4 +10,7 @@ import Slider from './components/Slider.vue'
 </template>
 
 <style scoped>
+p {
+  margin: 0 0 8px;
+}
 </style>

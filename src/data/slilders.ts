@@ -1,7 +1,7 @@
 import type { Slider } from "@/types/slider";
 import slider1 from "@/assets/slider/slider01.webp";
 import slider2 from "@/assets/slider/slider02.webp";
-import slider3 from "@/assets/slider/slider03.webp";
+import slider3 from "@/assets/slider/slider03.jpeg";
 
 export const allSliders: Array<Slider> = [
   {
